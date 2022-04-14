@@ -9,7 +9,7 @@
                         <span class="section-heading-lower">Lavoro & Caffè</span>
                     </h2>
                     <p class="mb-3">Durante ogni pausa lavorativa bisogna sempre darsi la carica, una tazza di caffè, direi che a me può bastare.</p>
-                    <div class="intro-button mx-auto"><a class="btn btn-primary btn-xl" href="#!">Visita il Blog!</a></div>
+                    <div class="intro-button mx-auto"><a class="btn btn-primary btn-xl" href="{{ route('blog') }}">Visita il Blog!</a></div>
                 </div>
             </div>
         </div>

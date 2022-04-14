@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\PublicController;
+use App\Http\Controllers\ArticleController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,3 +19,5 @@ use App\Http\Controllers\PublicController;
 Route::get("/",[PublicController::class,"home"])->name("home");
 
 Route::get("/blog",[BlogController::class,"blog"])->name("blog");
+
+Route::get("/article",[ArticleController::class,"article"])->name("article");
